@@ -42,11 +42,10 @@ class MainActivity : AppCompatActivity() {
 
         registerReceiver(receiver, IntentFilter(DownloadManager.ACTION_DOWNLOAD_COMPLETE))
 
-        // call download function on click on custom button
+        // call download function when user click on custom button
         custom_button.setOnClickListener {
             download()
         }
-
 
      //Initialize the notification manager
         notificationManager = ContextCompat.getSystemService(
@@ -135,7 +134,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-
     /**
      *   Down load function
      * */
@@ -164,7 +162,6 @@ class MainActivity : AppCompatActivity() {
             custom_button.buttonState = ButtonState.Loading
         }
     }
-
 
     /**
      * Create channel
