@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Download App</string>
+    <string name="app_description">Download files from Internet</string>
+    <string name="action_settings">Settings</string>
+
+<!-- Notifications-->
+    <string name="notification_title">Udacity: Android Kotlin Nanodegree </string>
+    <string name="notification_description">The Project 3 repository is downloaded</string>
+    <string name="notification_button">See changes</string>
+    <string name="download_notification_channel_id" translatable="false">download_channel</string>
+    <string name="download_notification_channel_description" translatable="true"> Download complete </string>
+    <string name="notification_action">Check the status</string>
+    <string name="glide_repository">The Glide repository is download</string>
+    <string name="load_app_repository">The LoadApp repository is download</string>
+    <string name="retrofit_repository">The Retrofit repository is download</string>
+
+    <string name="button_name">Click me</string>
+    <string name="button_loading">We are loading </string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+    <!-- Toast-->
+    <string name="select_the_file_toast">Please select the file to download</string>
+
+<!-- Detail Activity-->
+    <string name="file_text">File name:</string>
+    <string name="status_text">Status:</string>
+    <string name="ok_text">OK</string>
+
+<!-- LoadApp Activity-->
+    <string name="glide_text">Glide - Image Loading Library by BumpTech</string>
+    <string name="load_app_text">LoadApp - Current repository by Udacity</string>
+    <string name="retrofit_text">Retrofit - Type-safe HTTP client for Android and Java by square, Inc</string>
+    <string name="download_button">Download</string>
+    <string name="success">Success</string>
+    <string name="fail">Fail</string>
+    <string name="download">DOWNLOAD</string>
+    <string name="loading">We are loading</string>
+    <string name="complete">Complete</string>
+
+</resources>
