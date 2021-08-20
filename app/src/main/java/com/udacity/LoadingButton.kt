@@ -152,15 +152,15 @@ class LoadingButton @JvmOverloads constructor(
     }
 
 
-    private fun ValueAnimator.disableDuringAnimation(view: View) {
-        addListener(object : AnimatorListenerAdapter() {
-            override fun onAnimationStart(animation: Animator?) {
-                view.isEnabled = false
-            }
-            override fun onAnimationEnd(animation: Animator?) {
-                view.isEnabled = true
-            }
-        })
-    }
+//    private fun ValueAnimator.disableDuringAnimation(view: View) {
+//        addListener(object : AnimatorListenerAdapter() {
+//            override fun onAnimationStart(animation: Animator?) {
+//                view.isEnabled = false
+//            }
+//            override fun onAnimationEnd(animation: Animator?) {
+//                view.isEnabled = true
+//            }
+//        })
+//    }
 
 }
