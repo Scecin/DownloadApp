@@ -31,7 +31,7 @@ class DetailActivity : AppCompatActivity() {
         ) as NotificationManager
 
 
-        // fine name and download status
+        // create intents in the fileName and status
         fileName = intent.getStringExtra("fileName").toString()
         status = intent.getStringExtra("status").toString()
 
